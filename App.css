@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+body {
+  margin: 0;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: grey;
+  text-align: center;
+  background: #00C9FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #92FE9D, #00C9FF);
+background: -o-linear-gradient(left, #92FE9D, #00C9FF);
+background: linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+  margin: 0;
+  margin-bottom: .5rem;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.input {
+  border: ppx solid #333;
+  border-radius: .3em;
+  padding: .25rem;
+  width: 7em;
+  margin-right:7px;
+}
+
+.select {
+  margin-left: .5rem;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+}
